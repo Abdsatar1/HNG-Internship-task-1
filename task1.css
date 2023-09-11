@@ -1,0 +1,68 @@
+body{
+	box-sizing: border-box;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	width: 300px;
+	height: 100px;
+	background-color: lightskyblue;
+	position: relative;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 110px;
+	margin-top: 10px;
+}
+
+.slack-image {
+	border-radius: 50%;
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+	border: 5px solid #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 20px;
+
+}
+
+.slack-image img {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+ .slack-name {
+	text-align: center;
+}
+
+.track {
+	font-size: larger;
+	text-align: center;
+}
+
+#currentTime, #github, #currentDay {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: larger;
+}
+
+.bottom-box {
+	width: 300px;
+	height: 100px;
+	background-color: lightskyblue;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+
